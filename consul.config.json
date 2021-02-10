@@ -1,0 +1,19 @@
+{
+  "datacenter": "dc1",
+  "server": true,
+  "bootstrap": true,
+  "node_name": "dev1",
+  "data_dir": "/opt/consul",
+  "ui": true,
+  "addresses": {
+    "http": "0.0.0.0"
+  },
+  "connect": {
+    "enabled": true
+  },
+  "ports": {
+    "dns": 8600,
+    "http": 8500,
+    "grpc": 8502
+  }
+}
